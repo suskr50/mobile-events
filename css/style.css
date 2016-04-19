@@ -1,0 +1,33 @@
+body,html {
+
+}
+
+.container {
+	max-width:500px;
+	margin: auto;
+	width:90%;
+	background: url(../img/sea.jpg) no-repeat center center;
+	background-size:cover;
+	text-align:center;
+	color:white;
+}
+
+.character{
+	background: url(../img/stand.png) no-repeat center center;
+}
+.jump{
+	background-image: url(../img/jump.png);
+}
+.swipe-left{
+	background-image: url(../img/left.png);
+}
+.swipe-right{
+	background-image: url(../img/right.png);
+}
+
+.character-container,
+.character {
+	width: 350px;
+	height:350px;
+	margin: auto;
+}
